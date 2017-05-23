@@ -1,0 +1,47 @@
+{
+  "name": "ivis-ipix",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schmidsi/ivis-ipix.git"
+  },
+  "keywords": [
+    "ivis",
+    "fhnw",
+    "visualisation",
+    "next.js",
+    "student-project",
+    "d3"
+  ],
+  "eslintConfig": {
+    "extends": "airbnb",
+    "env": {
+      "browser": true
+    }
+  },
+  "author": "Simon Emanuel Schmid <simon.schmid@students.fhnw.ch>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schmidsi/ivis-ipix/issues"
+  },
+  "homepage": "https://github.com/schmidsi/ivis-ipix#readme",
+  "dependencies": {
+    "next": "^3.0.0-beta6",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-react": "^7.0.1"
+  }
+}
